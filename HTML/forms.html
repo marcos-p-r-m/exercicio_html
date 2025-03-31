@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <header>
+        <h1>Listas</h1>
+        <nav>
+            <a href="./index.html">Home</a>
+        </nav>
+    </header>
+    <h1>Formulários</h1>
+    <form>
+        <input type="text" placeholder="Seu nome"/>
+        <br/>
+        <label for="email">Seu e-mail</label>
+        <input id="email" type="email"/>
+        <br/>
+        <input type="Tel" placeholder="Seu telefone"/>
+        <br/>
+        <p>
+            Qual sua idade?
+        </p>
+        <input type="number" max="110" min="16" step="1"/>
+        <br/><br/>
+        <input type="color"/>
+        <br/><br/>
+        <p>
+            Qual sua cor favorita?
+        </p>
+        <input id="cor-vermelha" type="radio" name="cor-favorita"/> <label for="cor-vermelha">Vermelho</label>
+        <input id="cor-verde" type="radio" name="cor-favorita"/> <label for="cor-verde">Verde</label>
+        <input id="cor-azul" type="radio" name="cor-favorita"/> <label for="cor-azul">Azul</label>
+        <br/><br/>
+        <label>De quais frutas você gosta?</label>
+        <br/>
+        <select multiple>
+            <option>Laranja</option>
+            <option>Banana</option>
+            <option>Maça</option>
+            <option>Uva</option>
+        </select>
+        <br/><br/>
+        <label>Qual seu filme favorito?</label>
+        <br/>
+        <select>
+            <option>Filme A</option>
+            <option>Filme B</option>
+            <option>Filme C</option>
+        </select>
+        <br/><br/>
+        <input type="file"/>
+        <p>
+            Escreva um comentário
+        </p>
+        <textarea></textarea>
+        <br/><br/>
+        <input id="checkbox-termos" type="checkbox"/> 
+        <label for="checkbox-termos">Aceitos os termos</label>
+        <br/><br/>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+            
+    </form>
+</body>
+</html>
